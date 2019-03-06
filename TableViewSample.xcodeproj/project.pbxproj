@@ -14,6 +14,10 @@
 		DEACC1A3222FA9230077C686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEACC1A1222FA9230077C686 /* LaunchScreen.storyboard */; };
 		DEACC1AE222FA9230077C686 /* TableViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACC1AD222FA9230077C686 /* TableViewSampleTests.swift */; };
 		DEACC1B9222FA9230077C686 /* TableViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACC1B8222FA9230077C686 /* TableViewSampleUITests.swift */; };
+		DEACC1C9222FAA210077C686 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACC1C8222FAA210077C686 /* TableViewController.swift */; };
+		DEC59640222FAD1A004C0C21 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5963F222FAD1A004C0C21 /* ViewCell.swift */; };
+		DEC59642222FB5BB004C0C21 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC59641222FB5BB004C0C21 /* CellView.xib */; };
+		DEC59644222FB628004C0C21 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC59643222FB628004C0C21 /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		DEACC1B4222FA9230077C686 /* TableViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEACC1B8222FA9230077C686 /* TableViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSampleUITests.swift; sourceTree = "<group>"; };
 		DEACC1BA222FA9230077C686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEACC1C8222FAA210077C686 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DEC5963F222FAD1A004C0C21 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		DEC59641222FB5BB004C0C21 /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		DEC59643222FB628004C0C21 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				DEACC19F222FA9230077C686 /* Assets.xcassets */,
 				DEACC1A1222FA9230077C686 /* LaunchScreen.storyboard */,
 				DEACC1A4222FA9230077C686 /* Info.plist */,
+				DEACC1C8222FAA210077C686 /* TableViewController.swift */,
+				DEC5963F222FAD1A004C0C21 /* ViewCell.swift */,
+				DEC59641222FB5BB004C0C21 /* CellView.xib */,
+				DEC59643222FB628004C0C21 /* CellView.swift */,
 			);
 			path = TableViewSample;
 			sourceTree = "<group>";
@@ -229,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC59642222FB5BB004C0C21 /* CellView.xib in Resources */,
 				DEACC1A3222FA9230077C686 /* LaunchScreen.storyboard in Resources */,
 				DEACC1A0222FA9230077C686 /* Assets.xcassets in Resources */,
 				DEACC19E222FA9210077C686 /* Main.storyboard in Resources */,
@@ -257,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEACC19B222FA9210077C686 /* ViewController.swift in Sources */,
+				DEC59644222FB628004C0C21 /* CellView.swift in Sources */,
 				DEACC199222FA9210077C686 /* AppDelegate.swift in Sources */,
+				DEACC1C9222FAA210077C686 /* TableViewController.swift in Sources */,
+				DEC59640222FAD1A004C0C21 /* ViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
